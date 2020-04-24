@@ -12,7 +12,7 @@ namespace ConsoleApp1
             double width, height, woodLength, glassArea;
             string widthString, heightString;
 
-            Console.WriteLine("Type the width (meters): ");
+            Console.WriteLine("Type the width (feet): ");
             widthString = Console.ReadLine();
             width = double.Parse(widthString);
 
