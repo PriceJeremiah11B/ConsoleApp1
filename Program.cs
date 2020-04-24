@@ -16,7 +16,7 @@ namespace ConsoleApp1
             widthString = Console.ReadLine();
             width = double.Parse(widthString);
 
-            Console.WriteLine("Tyoe the height (meters): ");
+            Console.WriteLine("Type the height (meters): ");
             heightString = Console.ReadLine();
             height = double.Parse(heightString);
 
@@ -28,6 +28,8 @@ namespace ConsoleApp1
             Console.WriteLine("My name is " + message + " and I am from " + message1);
 
             Console.ReadKey();
+
+            
         }
     }
 }
